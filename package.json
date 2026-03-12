@@ -3,7 +3,11 @@
   "private": true,
   "type": "module",
   "version": "0.0.0",
+  "scripts": {
+    "build:tasks": "node scripts/compile-tasks.mjs"
+  },
   "devDependencies": {
+    "esbuild": "^0.24.0",
     "typescript": "^5.7.0",
     "@types/node": "^22.0.0"
   }
