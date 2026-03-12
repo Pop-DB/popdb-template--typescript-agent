@@ -4,7 +4,7 @@
   "type": "module",
   "version": "0.0.0",
   "scripts": {
-    "build:tasks": "node scripts/compile-tasks.mjs"
+    "build:handlers": "node scripts/compile-handlers.mjs"
   },
   "devDependencies": {
     "esbuild": "^0.24.0",
